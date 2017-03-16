@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>netgloo</groupId>
-  <artifactId>spring-boot-mysql-springdatajpa-hibernate</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>theoptionslab</artifactId>
+  <version>1.0</version>
 
-  <name>spring-boot-mysql-springdatajpa-hibernate</name>
+  <name>theoptionslab</name>
   <description>Use Spring Data JPA + Hibernate + MySQL in Spring Boot</description>
 
   <parent>
@@ -46,11 +46,13 @@
     </dependency>
     <!-- add this when deploy locally -->
 
+	<!--
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.10</version>
     </dependency>
+	-->
 
     <!-- https://mvnrepository.com/artifact/com.google.cloud.sql/mysql-socket-factory -->
     <dependency>

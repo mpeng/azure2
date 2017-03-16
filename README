@@ -68,3 +68,15 @@ Create a database on your Cloud SQL instance named sqldemo.
 gcloud beta sql databases create sqldemo --instance=[INSTANCE_NAME]
 
 
+
+
+  git init
+  git add .
+  git commit -m "initial commit"
+  git remote add azure https://theoptionslabftp@optionslab.scm.azurewebsites.net:443/optionslab.git
+  git push azure master
+
+made more changes, then repeat.
+  git add .
+  git commit -m "initial commit"
+  git push azure master
